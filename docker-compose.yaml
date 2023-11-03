@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./:/usr/src/app
+      - index_storage:/usr/src/storage
+      - tmp:/tmp
+
+volumes:
+  index_storage:
+  tmp:
