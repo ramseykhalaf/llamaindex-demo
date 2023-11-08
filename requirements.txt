@@ -1,4 +1,6 @@
-llama-hub==0.0.43
-llama-index==0.8.59
-feedparser==6.0.10
-wikipedia==1.4.0
+llama-hub
+llama-index
+feedparser
+wikipedia
+llmsherpa
+pypdf
